@@ -1,0 +1,77 @@
+╔════════════════════════════════════════════════════════════════╗
+║     Instagram Location Extractor - Ready to Run!              ║
+╚════════════════════════════════════════════════════════════════╝
+
+📍 STEP 1: Open a new terminal window
+
+📍 STEP 2: Navigate to the project directory:
+
+   cd /home/bill/projects/agentic
+
+📍 STEP 3: Run the script:
+
+   ./run_instagram_extractor.sh
+
+   OR
+
+   ./venv/bin/python instagram_location_extractor.py
+
+📍 STEP 4: Enter your Instagram credentials when prompted:
+
+   Username: [your instagram username]
+   Password: [your instagram password]
+
+   Note: Your password won't be displayed as you type (this is normal)
+
+📍 STEP 5: Confirm to proceed (type 'y')
+
+📍 STEP 6: Wait while the script extracts locations
+
+   You'll see progress updates like:
+   - "Processing saved posts..."
+   - "[1] Found: Central Park"
+   - "[2] Found: Starbucks - Manhattan"
+
+📍 STEP 7: Look for the output CSV file
+
+   File name will be: instagram_locations_YYYYMMDD_HHMMSS.csv
+   Example: instagram_locations_20251117_143022.csv
+
+═══════════════════════════════════════════════════════════════════
+
+💡 TIPS:
+
+• If you have 2FA enabled, you may need to temporarily disable it
+
+• The script processes ALL your saved posts (across all collections)
+
+• Only posts with location tags will be extracted
+
+• Be patient - it may take a few minutes depending on how many
+  saved posts you have
+
+═══════════════════════════════════════════════════════════════════
+
+🗺️  AFTER COMPLETION - Import to Google Maps:
+
+1. Go to: https://www.google.com/maps/d/
+2. Click "Create a New Map"
+3. Click "Import"
+4. Select your CSV file
+5. Choose position columns: Latitude, Longitude
+6. Choose marker title: Name
+7. Click "Finish"
+
+Your locations will appear on the map!
+
+═══════════════════════════════════════════════════════════════════
+
+❓ NEED HELP?
+
+If you encounter errors, check:
+- Instagram username/password are correct
+- 2FA is disabled
+- You have saved posts with location tags
+- Internet connection is stable
+
+═══════════════════════════════════════════════════════════════════
