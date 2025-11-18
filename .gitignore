@@ -20,6 +20,7 @@ session-*
 # CSV output files (except example)
 instagram_locations_*.csv
 test_instagram_locations.csv
+test_integration_output.csv
 
 # Environment files
 .env
